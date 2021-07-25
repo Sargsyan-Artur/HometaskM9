@@ -2,4 +2,6 @@
 
 npm run postinstall \
 npm run start-server \
-npm run test 
+npm run test \
+# Parallel execution
+npm run test -- --instances=3
